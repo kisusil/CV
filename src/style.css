@@ -45,6 +45,14 @@ a {
     color: #A6AEBF;
 }
 
+a:visited {
+    color: #9C80F7;
+}
+
+a:hover {
+    color: #A6AEFF;
+}
+
 .last-section {
     padding-bottom: 90px;
 }
@@ -52,6 +60,7 @@ a {
 #avatar {
     width: 180px;
     height: 180px;
+    border-radius: 16px;
 }
 
 .header {
