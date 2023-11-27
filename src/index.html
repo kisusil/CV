@@ -11,7 +11,14 @@
     <div class="container">
         <section>
             <div class="header">
-                <img id="avatar" src="Avatar.jpg" alt="avatar"/>
+                <picture>
+                    <source srcset="avatar1.webp" media="(max-width: 640px)" type="image/webp" />
+                    <source srcset="avatar1.png" media="(max-width: 640px)" type="image/png" />
+                    <source srcset="avatar2.webp" media="(max-width: 1441px)" type="image/webp" />
+                    <source srcset="avatar2.png" media="(max-width: 1441px)" type="image/png" />
+                    <source srcset="avatar3.webp" type="image/webp" />
+                    <img id="avatar" src="avatar3.png" alt="My Photo" />
+                </picture>
                 <div class="header-text">
                     <h1>Иляна Латышева, дизайнер</h1>
                     <span class="small-text mb-12">21 год, Санкт-Петербург</span>
