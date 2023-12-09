@@ -1,0 +1,81 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="favicon.png" rel="shortcut icon">
+    <title>Error 404</title>
+	<style>
+		body {
+			width: 100vw;
+			overflow-x: hidden;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		span {
+			font-family: 'Jost', sans-serif;
+			font-weight: 500;
+			font-size: 32px;
+		}
+
+		a {
+			font-family: 'Jost', sans-serif;
+			font-weight: 400;
+			font-size: 32px;
+			color: #A6AEBF;
+		}
+
+		a:visited {
+			color: #9C80F7;
+		}
+
+		a:hover {
+			color: #A6AEFF;
+		}
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+		.container {
+			width: 900px;
+            margin-top: 100px;
+		}
+
+        #image {
+            width: 450px;
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <section>
+                <img id="image" src="404.svg" alt="Error 404 Not found" />
+            </section>
+            <section>
+                <span>Эта страница была удалена, приношу свои извинения :(</span>
+            </section>
+            <section class="links">
+                <span><a target="_blank" href="https://www.youtube.com/shorts/bltT8xRRYtk?feature=share">Улыбнуться</a></span>
+                <span><a href="https://se.ifmo.ru/~s312578/">Вернуться на главную</a></span>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
